@@ -33,6 +33,7 @@ li {
 header {
     min-height: 250px;
     background-image: url(https://loremflickr.com/cache/resized/65535_52113595645_e9a653abf0_h_1200_300_nofilter.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,10 +58,10 @@ section:nth-child(1) h3 {
     margin-bottom: 0;
 }
 
-section p {
+section {
     line-height: 1.5;
     max-width: 65ch;
-
+    margin: auto;
 }
 
 section:nth-child(2) {
@@ -82,6 +83,7 @@ article {
 
 article h1 {
     font-size: 1rem;
+    color: black;
 }
 
 section:nth-child(2) h3 {
