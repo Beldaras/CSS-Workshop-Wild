@@ -50,10 +50,11 @@ section {
     align-items: center;
 }
 
-h3 {
-    align-self: start;
-    width: 100%;
-    margin: 2rem 0 0 32rem;
+section:nth-child(1) h3 {
+    display: block;
+    align-self: center;
+    margin-right: 35rem;
+    margin-bottom: 0;
 }
 
 section p {
@@ -64,9 +65,9 @@ section p {
 
 section:nth-child(2) {
     display: grid;
-    grid-template-columns: 325px 325px;
-    grid-template-rows: 50px 100px 100px;
-    gap: 10px;
+    grid-template-columns: 20.3rem 20.3rem;
+    grid-template-rows: 3.1rem 6.25rem 6.25rem;
+    gap: 0.62rem;
 }
 
 article {
